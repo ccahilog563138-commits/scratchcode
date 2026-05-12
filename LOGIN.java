@@ -86,7 +86,8 @@ public class LOGIN extends JFrame implements ActionListener {
         }
 
         if (e.getSource() == btnregister) {
-            JOptionPane.showMessageDialog(this, "Open Register Form");
+            new AccountManagementSystem_Register();
+            this.dispose();
         }
 
         if (e.getSource() == btnexit) {
